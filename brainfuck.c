@@ -1,7 +1,7 @@
 /*!
  * @file brainfuck.c
  * @author EaGitro
- * @brief a interpreter of brainfu*k
+ * @brief an interpreter of brainfu*k
  * @version 0.1
  * @date 2023-02-13
  * 
@@ -29,7 +29,7 @@ typedef struct {
 int executor(const char source[], const int source_len, const int debug_mode);                     /* execute the source string */
 int read_source(char src[], const int src_len);                                                    /* read source code */
 void push(_Bracket_stack *p_stack, const int pushed_item);                                         /* push */
-int pop(_Bracket_stack *p_stack);                                                                  /* pop. (return index or err)  */
+int pop(_Bracket_stack *p_stack);                                                                  /* pop (return index or err)  */
 int search_right_squarebracket(const char source[], const int source_index, const int source_len); /* search the pair of the '['.  */
 
 
