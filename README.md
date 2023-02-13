@@ -42,7 +42,7 @@ And the Brainf*ck has following eight commands:
 | . | Output the byte which the the data pointer points to. |
 | , | Input the byte into element of array which the the data pointer points to. |
 | [ | If the byte which the data pointer points to is zero, the instruction pointer jumps to just after the matching `]` command. |
-| ] | The data pointer jumps to the matching `[` command. |
+| ] | The instruction pointer jumps to the matching `[` command. |
 
 ## The system matching `]` to `[` in this application
 
