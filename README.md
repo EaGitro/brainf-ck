@@ -120,6 +120,26 @@ The "debug mode" has following function:
   * The other charactors are ignored.
 * And Comment Out is available.
   * Characters from `#` to `\n` are not readed in the first place.
+
+
+# **Words to Brainfuck code (New Feature!)**
+
+You can convert the words to brainfuck source code, with compiling [./words2bf.c](`words2bf.c`) source file.
+
+```powershell
+C: > ./words2bf.exe
+words to bf > Brainfu*k
++++++[>+++++++++++++<-]>+.<
++++++[>+++++++++<-]>+++.<
++++++[>---<-]>--.<
++++++[>+<-]>+++.<
++++++[>+<-]>.<
++++++[>-<-]>---.<
++++++[>+++<-]>.<
++++++[>---------------<-]>.<
++++++[>+++++++++++++<-]>.<
+```
+
   
 # Author
 
