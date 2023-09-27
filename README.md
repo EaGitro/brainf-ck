@@ -124,7 +124,7 @@ The "debug mode" has following function:
 
 # **Words to Brainfuck code (New Feature!)**
 
-You can convert the words to brainfuck source code, with compiling [./words2bf.c](`words2bf.c`) source file.
+You can convert the words to brainfuck source code, with compiling [`words2bf.c`](./words2bf.c) source file.
 
 ```powershell
 C: > ./words2bf.exe
